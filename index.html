@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <link rel="stylesheet" href="css/map.css">
+</head>
+<body>
+    <a href="https://github.com/morvantr/frenchsalaries">Source - Github</a>
+    <p id='author'> Made by Romain Morvant with 💙 at Fontys<p>
+    <h1>💸 Salaries along French cities 🇫🇷</h1>
+    <p id='intro'>This map of average net wages in France shows the wage disparities that exist according to location, gender and age.<br></p>
+    <div id="controls">
+    <label for="selection">Filter on: </label>
+    <select id="selection" form>
+        <option value='snhm14' selected>All the population</option>
+        <option value='snhmh14'>Men</option>
+        <option value='snhmf14'>Women</option>
+        <option value='snhm1814'>People aged 18 to 25</option>
+        <option value='snhm2614'>People aged 26 to 50</option>
+        <option value='snhm5014'>People aged 50</option>
+        <option value='snhmc14'>Executives</option>
+        <option value='snhmp14'>The intermediate occupations</option>
+        <option value='snhme14'>Employees</option>
+        <option value='snhmo14'>Workers</option>
+        <option value='snhmhc14'>Male executives</option>
+        <option value='snhmhp14'>Men in intermediate occupations</option>
+        <option value='snhmhe14'>Male employees</option>
+        <option value='snhmho14'>Male workers</option>
+        <option value='snhmfc14'>Women executives</option>
+        <option value='snhmfp14'>Women in intermediate occupations</option>
+        <option value='snhmfe14'>Women employees</option>
+        <option value='snhmfo14'>Female workers</option>
+        <option value='snhmf1814'>Women aged 18 to 25</option>
+        <option value='snhmf2614'>Women aged 26-50</option>
+        <option value='snhmf5014'>Women over 50</option>
+        <option value='snhmh1814'>Men aged 18 to 25</option>
+        <option value='snhmh2614'>Men aged 26 to 50</option>
+        <option value='snhmh5014'>Men over 50</option>
+    </select>
+    </div>
+    <div id="map"></div>
+    <script type="text/javascript" src="js/map.js"></script>
+    <p id='description'>For the location, this is explained by the attractiveness of the cities, departments and regions in terms of their infrastructure (universities, airports, cultural sites, etc.) and their geographical location (proximity to the sea, for example). And the number of companies that are located in these different cities is directly related to this. Secondly, age is directly related to experience and therefore to the functions we can access, which explains why there are large wage gaps between the 18-25 and over-50 age groups.<br><br> Finally, there is a significant gender gap. Wage inequalities between men and women are still a major problem in the world, and France is no exception, since unfortunately, in full-time equivalents, women still earn 18% less than men. <br><br> But there are still a lot of other factors that play into these wage disparities and it's hard to find datasets that allow me to show them all in this map. <br></p>
+</body>
+</html>

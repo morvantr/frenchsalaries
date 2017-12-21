@@ -1,0 +1,135 @@
+/*body {
+  background: #F1F4F6;
+}*/
+
+div.tooltip {
+    position: absolute;
+    text-align: center;
+    line-height: 1;
+    padding: 6px;
+    background: #F1F4F6;
+    border-radius: 10px;
+    font-size: 12px;
+    font-family: Helvetica, sans-serif;
+    font-weight: normal;
+    display: block;
+}
+
+a{
+  padding: 20px;
+  margin:16px;
+  float: left;
+  font-size: 14px;
+  font-family: Helvetica, sans-serif;
+  background:#97ABFF;
+  border-radius: 30px;
+}
+
+h1
+{
+  font-size: 32px;
+  font-family:Helvetica, sans-serif;
+  color: #123597;
+  padding:16px;
+  font-weight:bold;
+  text-align:center;
+  margin:16px;
+}
+
+#author{
+  padding: 20px;
+  margin:16px;
+  float: right;
+  font-size: 8px;
+  font-family: Helvetica, sans-serif;
+}
+
+#intro{
+    padding:10px;
+    font-size: 18px;
+    font-weight:bold;
+    color:#123597;
+    font-style: italic;
+    font-family: Helvetica, sans-serif;
+}
+
+#description{
+    width: 30%;
+    padding:10px;
+    background:#97ABFF;
+    text-align: justify;
+    font-size: 15px;
+    color:white;
+    font-family: Helvetica, sans-serif;
+    float: left;
+    border-radius: 10px;
+}
+
+#text_advice{
+    font-size: 18px;
+    color:#123597;
+    font-family: Helvetica, sans-serif;
+    font-style: italic;
+}
+
+#svg{
+  text-align: center;
+  float: left;
+}
+
+#controls{
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#title_svg_app{
+  font-size: 18px;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  dominant-baseline: hanging;
+}
+
+#source_svg{
+  font-size: 12px;
+  font-family: Helvetica, sans-serif;
+  font-style: italic;
+}
+
+#svg_legend{
+  font-size: 12px;
+  font-family: Helvetica, sans-serif;
+  float: left;
+}
+
+#title_tooltip{
+  font-weight:bold;
+  font-size: 14px;;
+}
+
+#tooltip_text{
+  font-size: 10px;
+  font-family: Helvetica, sans-serif;
+}
+
+#tooltip_values{
+  font-size: 8px;
+  font-family: Helvetica, sans-serif;
+}
+
+#sel_tooltip_text{
+  font-size: 14px;
+  font-weight:bold;
+  font-family: Helvetica, sans-serif;
+  text-decoration: underline;
+}
+
+#controls{
+  font-size: 12px;
+  font-family: Helvetica, sans-serif
+}
+
+#legend_text{
+  font-size: 10px;
+  font-family: Helvetica, sans-serif
+}
