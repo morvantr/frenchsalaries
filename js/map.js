@@ -64,7 +64,7 @@ var scale_color=d3.scaleLinear()
 var svg_legend=d3.select('#map').append("svg")
     .attr("id","svg_legend")
     .attr("width",width/5)
-    .attr("height",height/1.7);
+    .attr("height",height);
 
 //legend of colors
 var linearGradient = svg_legend.append("linearGradient")
