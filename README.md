@@ -1,5 +1,5 @@
 ## Visualisation
-Visualisation is available at this [adress](http://i394231.hera.fhict.nl/)
+Visualisation is available at this [address](http://i394231.hera.fhict.nl/)
 
 ## Dataset
 I’m going to use a dataset called DADS from INSEE.
